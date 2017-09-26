@@ -105,7 +105,7 @@ a:focus {
 }
 
 /* Header */
-.codrops-header {
+.site-header {
 	position: relative;
 	display: flex;
 	flex-direction: row;
@@ -116,10 +116,10 @@ a:focus {
 	pointer-events: none;
 }
 
-.codrops-header__title {
+.site-header__title {
 	font-size: 1.5em;
 	margin: 0;
-	padding: 0 1em;
+	/*padding: 0 1em;*/
 }
 
 /* Top Navigation Style */
@@ -772,10 +772,10 @@ a:focus {
 }
 
 @media screen and (max-width: 50em) {
-	.codrops-header__title,
+	.site-header__title,
 	.codrops-header__tagline {
 		width: 100%;
-		padding: 1em 0 0;
+		/*padding: 1em 0 0;*/
 	}
 	.demo {
 		font-size: 1em;
